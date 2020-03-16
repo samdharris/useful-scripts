@@ -23,5 +23,6 @@ do
 
     echo "deleting branch $b"
     git branch -d -r $b
-    git fetch --prune
+
 done
+git fetch --prune
